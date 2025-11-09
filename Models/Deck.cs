@@ -29,6 +29,10 @@ namespace ElevensProject.Models
                 (cards[i], cards[j]) = (cards[j], cards[i]);
             }
         }
+         public bool IsEmpty()
+        {
+            return cards.Count == 0;
+        }
 
         public Card? Deal()
         {

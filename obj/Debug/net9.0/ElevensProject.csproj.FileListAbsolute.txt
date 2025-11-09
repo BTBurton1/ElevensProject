@@ -12,3 +12,4 @@ C:\Users\bilal\ElevensProject\obj\Debug\net9.0\refint\ElevensProject.dll
 C:\Users\bilal\ElevensProject\obj\Debug\net9.0\ElevensProject.pdb
 C:\Users\bilal\ElevensProject\obj\Debug\net9.0\ElevensProject.genruntimeconfig.cache
 C:\Users\bilal\ElevensProject\obj\Debug\net9.0\ref\ElevensProject.dll
+C:\Users\bilal\ElevensProject\obj\Debug\net9.0\ElevensProject.sourcelink.json

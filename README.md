@@ -25,8 +25,9 @@ This project demonstrates class design and object interactions for the early sta
 - Console test output verifying class interactions
 
 ## Features to add
-- Handling of face card triples (Jack, Queen, King)
 - User input and full game loop
-- Win/loss condition detection
 
+## Features added(11-9-2025) 
+-Handling of face card triples (Jack, Queen, King)
+-Win/Loss condition detection
 ---
