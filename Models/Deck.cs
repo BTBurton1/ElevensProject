@@ -29,14 +29,17 @@ namespace ElevensProject.Models
                 (cards[i], cards[j]) = (cards[j], cards[i]);
             }
         }
-         public bool IsEmpty()
+        public bool IsEmpty()
         {
             return cards.Count == 0;
         }
 
         public Card? Deal()
         {
-            if (cards.Count == 0) return null;
+            if (cards.Count == 0)
+            {
+                return null;
+            }
             Card top = cards[^1];
             cards.RemoveAt(cards.Count - 1);
             return top;
