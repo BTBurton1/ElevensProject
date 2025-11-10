@@ -76,6 +76,6 @@ It uses OOP concepts such as inheritance, encapsulation, and polymorphism throug
 
 - One of my main challenges was ensuring the board refilled correctly without clearing the entire set of cards each move. To fix it, I had to seperate dealboard into two different methods. One refills the board when cards are removed and the other resets the deck at the start of the game, making sure the existing cards stay consistent without resetting every time.
 
-- Another challenge I had was implementing abstract methods for the base board class to make sure JQK combo detection worked.
+- Another challenge I had was implementing abstract methods for the base board class to make sure JQK combo detection worked. To fix it, I just made two if statements for the 2-card combo and triple face card combo, ensuring their distinguishable during the input process. I also added a function to force the combo so I can test it immediately.
 
 - With those challenges in mind I can honestly say that I was able to create a solid elevens game thats fully functional and structured. Demonstrating a solid understanding of object oriented principles in action.
