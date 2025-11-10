@@ -62,9 +62,7 @@ It uses OOP concepts such as inheritance, encapsulation, and polymorphism throug
 ```bash
 - dotnet build
 - dotnet run
-
----
-
+```
 ## Gameplay Instructions
 1. The game automatically deals **9 cards** from the shuffled deck.
 2. Type **two positions** (e.g. `0,1`) to select a pair summing to **11**.
@@ -81,4 +79,3 @@ It uses OOP concepts such as inheritance, encapsulation, and polymorphism throug
 - Another challenge I had was implementing abstract methods for the base board class to make sure JQK combo detection worked.
 
 - With those challenges in mind I can honestly say that I was able to create a solid elevens game thats fully functional and structured. Demonstrating a solid understanding of object oriented principles in action.
-```
